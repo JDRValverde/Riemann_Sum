@@ -29,7 +29,7 @@ public class Main {
             x = i + (deltaX / 2);
             y = function_f(x);
             s += deltaX * y;
-            System.out.println("i=" + ++j +" x=" + x + " f(x)=" + y + "\nÁrea parcial=" + (deltaX+y) ); // REF: menospapeles Blogg
+            System.out.println("i=" + ++j +" x=" + x + " f(x)=" + y + "\nÁrea parcial=" + (deltaX+y) );
             System.out.println("Área: "+s+" unidades cuadradas.");;
         }
 
@@ -42,3 +42,6 @@ public class Main {
         return(y);
     }
 }
+
+
+// REF: menospapeles Blogg
